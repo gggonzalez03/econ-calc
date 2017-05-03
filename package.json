@@ -1,25 +1,17 @@
 {
-  "name": "econ-calculator",
-  "version": "1.0.0",
-  "description": "A calculator that helps solve economics problems with representations in graphs, numbers, and charts.",
-  "main": "server.js",
-  "dependencies": {
-    "angular": "^1.6.4",
-    "express": "^4.15.2"
-  },
-  "devDependencies": {},
+  "name": "econ-calc",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gggonzalez03/econ-calc.git"
-  },
-  "author": "Ging Gonzalez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gggonzalez03/econ-calc/issues"
-  },
-  "homepage": "https://github.com/gggonzalez03/econ-calc#readme"
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  }
 }
